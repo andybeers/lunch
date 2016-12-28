@@ -1,5 +1,3 @@
-'use strict';
-
 const vendorController = {};
 const $vendorSort = $('#vendor-sort');
 

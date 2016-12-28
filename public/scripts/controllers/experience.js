@@ -1,5 +1,3 @@
-'use strict';
-
 const $experienceForm = $('#experience-form');
 
 $experienceForm.on('submit', e => {

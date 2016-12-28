@@ -1,5 +1,3 @@
-'use strict';
-
 const authController = {};
 const $signupForm = $('#sign-up');
 

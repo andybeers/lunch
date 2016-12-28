@@ -1,5 +1,3 @@
-'use strict';
-
 page('/', authController.render);
 
 page('/choose-community', viewController.showChooseCommunity);

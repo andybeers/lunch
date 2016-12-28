@@ -1,5 +1,3 @@
-'use strict';
-
 const viewController = {};
 
 viewController.showCommunity = function() {

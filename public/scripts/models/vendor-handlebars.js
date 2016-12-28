@@ -1,5 +1,3 @@
-'use strict';
-
 const vendorView = {};
 
 vendorView.toHtml = function(obj) {

@@ -1,5 +1,3 @@
-'use strict';
-
 const $joinCommunity = $('#join-community');
 
 $('#join-community').on('click', '.button', function() {
@@ -16,7 +14,7 @@ $joinCommunity.on('submit', e => {
       .post('/lunch/community/join')
       .set('authorization', token)
       .send(input)
-      .end((err, res) => { //eslint-disable-line
+      .end((err, res) => {
         if(err) {
           $('#choose-community-div .error').html('&#9888; Community does not exist: make it!');
         } else {

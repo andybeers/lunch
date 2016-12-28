@@ -1,5 +1,3 @@
-'use strict';
-
 const $advanceSort = $('#advance-sort');
 const advanceController = {};
 

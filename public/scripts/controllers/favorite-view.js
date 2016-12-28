@@ -1,5 +1,3 @@
-'use strict';
-
 const favoritesController = {};
 
 favoritesController.render = function() {
@@ -14,7 +12,7 @@ favoritesController.favoriteUser = function () {
       .put('/lunch/users/favorite')
       .set('authorization', localStorage.getItem('token'))
       .send({username: favUser})
-      .end((err, res) => { //eslint-disable-line
+      .end((err, res) => { //eslint-disable-line no-unused-vars
         if(err) {
           $('#favorite-message').append('error');
         } else {

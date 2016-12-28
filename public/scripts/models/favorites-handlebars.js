@@ -1,5 +1,3 @@
-'use strict';
-
 const favoritesView = {};
 
 favoritesView.toHtml = function(obj) {

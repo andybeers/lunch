@@ -1,5 +1,3 @@
-'use strict';
-
 const communityController = {};
 
 $('#community-div #post-exp-button').on('click', e => {
